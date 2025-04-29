@@ -803,6 +803,13 @@
 
         text-align: center;
         text-transform: uppercase;
+        
+    }
+
+    #pInLink
+    {
+        text-decoration: none;
+        color: #000000;
     }
 
     .pMa {
