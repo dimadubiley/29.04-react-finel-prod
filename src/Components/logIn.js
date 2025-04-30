@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 export function LogIn() {
     return (
         <div id="wrappLogIn">
-            <nav></nav>
-
-            <div id="left">
+            {/* <nav></nav> */}
+            <div id="leftL">
                 <button id="backBnt">
                     <img src="backBtn.png" alt="Back" />
                 </button>
@@ -55,10 +55,7 @@ export function LogIn() {
                     <br />
 
                     <button className="Akk">Продовжити</button>
-
-                    <div className='Ma'>
-                        <Link to="/register"><p id='pInLink'>Створити аккаунт</p></Link>
-                    </div>
+                    <Link id='LinkStyle' to='./register'> Створити аккаунт </Link>
                 </form>
             </div>
         </div>
