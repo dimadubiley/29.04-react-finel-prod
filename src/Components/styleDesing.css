@@ -1,0 +1,41 @@
+@media(min-width: 1366px) {
+    #wrappDesing
+    {
+        border: 1px solid black;
+    }
+}
+@media(min-width: 933px) and (max-width: 1366px) {
+    #wrappDesing
+    {
+        border: 1px solid red;
+    }
+}
+@media(max-width: 932px) {
+    #wrappDesing
+    {
+        border: 1px solid green;
+    }
+}
+
+#wrappDesing
+{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 100px; */
+    width: 100%;
+
+}
+
+main
+{
+    border: 5px solid darkblue;
+    width: 500px;
+}
+
+#title
+{
+    text-align: center;
+    text-align: center;
+
+    border: 2px solid seagreen;
+}
