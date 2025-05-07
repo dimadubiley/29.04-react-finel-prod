@@ -29,11 +29,12 @@
         margin-left: 150px;
     }
 
-    #title {
+    #titleLogIn {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
 
-        margin-left: -70px;
+        margin-left: -180px;
+        padding-right: 10px;
     }
 
     /* RIGHT */
@@ -119,7 +120,7 @@
         height: 23px;
     }
 
-    
+
     #pass {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -260,7 +261,7 @@
         /* margin-left: 20px; */
     }
 
-    #title {
+    #titleLogIn {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
 
@@ -530,10 +531,11 @@
 
     }
 
-    #title {
+    #titleLogIn {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         width: 400px;
+
     }
 
     /* RIGHT */
@@ -547,8 +549,7 @@
 
     /*-----------------*/
 
-    #divForText1
-    {
+    #divForText1 {
         width: 350px;
     }
 
@@ -640,7 +641,7 @@
 
         font-size: 20px;
         border: none;
-    outline: none;
+        outline: none;
 
         width: 385px;
         height: 40px;
@@ -800,7 +801,7 @@
 
     text-align: center;
     text-transform: uppercase;
-    
+
     border: 1px solid black;
 
     display: flex;
@@ -809,4 +810,9 @@
 
     text-decoration: none;
     color: #000000;
+}
+
+#titleLogIn {
+    text-align: center;
+    text-align: center;
 }

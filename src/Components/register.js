@@ -1,4 +1,5 @@
 import React from "react";
+import './styleRegister.css';
 
 export function Register() {
     return (

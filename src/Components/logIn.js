@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './styleLogIn.css';
 
 
 export function LogIn() {
     return (
         <div id="wrappLogIn">
-            {/* <nav></nav> */}
             <div id="leftL">
                 <button id="backBnt">
                     <img src="backBtn.png" alt="Back" />
                 </button>
                 <div id="divForH1">
-                    <h1 id="title">Заповніть вхід до облікового запису</h1>
+                    <h1 id="titleLogIn">Заповніть вхід до облікового запису</h1>
                 </div>
             </div>
 

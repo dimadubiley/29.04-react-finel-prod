@@ -7,7 +7,7 @@ export function Desing() {
     return (
         <div id='wrappDesing'>
             <main>
-                <h1 id='title'>Створи дизайн своєї мрії</h1>
+                <h1 id='titleDesing'>Створи дизайн своєї мрії</h1>
                 <div id='divForThreeCards'>
                     <div className='card'>
                         <img src='' alt='' className='imgForCard'/>
