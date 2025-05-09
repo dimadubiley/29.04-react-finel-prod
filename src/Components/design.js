@@ -40,8 +40,8 @@ export function Desing() {
                 <div id='threeCards'>
                     <div className='cardsInFirstSec'>
                         <img src='photoForFirstCardSection1.png' alt='' className='photoForCardInSection' />
-                        <h1 className='h1InCardFirstSec'></h1>
-                        <p className='pInCardFirstSec'></p>
+                        <h1 className='h1InCardFirstSec'>Як обрати стиль</h1>
+                        <p className='pInCardFirstSec'>Lorem ipsum dolor sit amet consectetur. Habitasse consequat egestas lectus consequat egestas lectus blandit consequat. A sed  blandit consequat. A sed placerat sapien amet...</p>
                     </div>
                     <div className='cardsInFirstSec'>
                         <img src='photoForSecondCardSection1.jpg' alt='' className='photoForCardInSection' />

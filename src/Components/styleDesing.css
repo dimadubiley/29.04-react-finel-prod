@@ -48,7 +48,7 @@
     background: #ffffff50;
 
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 #divForThreeCards {
@@ -124,16 +124,17 @@
     width: 481px;
     height: 953px;
 
-    z-index: 1;
+    /* z-index: ; */
 
     margin-right: 15px;
     background: #ffffff;
 }
 
-.h1InCardFirstSec {}
+.h1InCardFirstSec {
+}
 
 .pInCardFirstSec {}
 
 .divForPhotoCard {
-    z-index: 0;
+    /* z-index: 0; */
 }
