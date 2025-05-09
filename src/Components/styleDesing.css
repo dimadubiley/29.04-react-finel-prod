@@ -109,23 +109,31 @@
 
 #threeCards {}
 
+.photoForCardInSection {
+
+    width: 481px;
+    height: 720px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 .cardsInFirstSec {
     border: 2px solid black;
+    border-radius: 20px;
+
     width: 481px;
     height: 953px;
 
+    z-index: 1;
+
     margin-right: 15px;
-    border-radius: 20px;
-
-}
-
-.photoForSecondCardSection1 {
-    width: 481px;
-    height: 720px;
+    background: #ffffff;
 }
 
 .h1InCardFirstSec {}
 
 .pInCardFirstSec {}
 
-.divForPhotoCard {}
+.divForPhotoCard {
+    z-index: 0;
+}

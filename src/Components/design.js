@@ -39,9 +39,7 @@ export function Desing() {
             <div id='firstSec'>
                 <div id='threeCards'>
                     <div className='cardsInFirstSec'>
-                        <div className='divForPhotoCard'>
-                            <img src='photoForFirstCardSection1.png' alt='' className='photoForCardInSection' />
-                        </div>
+                        <img src='photoForFirstCardSection1.png' alt='' className='photoForCardInSection' />
                         <h1 className='h1InCardFirstSec'></h1>
                         <p className='pInCardFirstSec'></p>
                     </div>
