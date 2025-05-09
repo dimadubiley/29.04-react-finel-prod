@@ -1,41 +1,131 @@
 @media(min-width: 1366px) {
-    #wrappDesing
-    {
-        border: 1px solid black;
-    }
-}
-@media(min-width: 933px) and (max-width: 1366px) {
-    #wrappDesing
-    {
-        border: 1px solid red;
-    }
-}
-@media(max-width: 932px) {
-    #wrappDesing
-    {
-        border: 1px solid green;
+    #wrappDesing {
+        /* border: 2px solid black; */
     }
 }
 
-#wrappDesing
-{
+@media(min-width: 933px) and (max-width: 1366px) {
+    #wrappDesing {
+        border: 2px solid red;
+    }
+}
+
+@media(max-width: 932px) {
+    #wrappDesing {
+        border: 2px solid green;
+    }
+}
+
+#wrappDesing {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /* margin-left: 100px; */
-    width: 100%;
-
+    /* width: 100%; */
+    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
+    background-repeat: no-repeat;
+    /*  */
+    width: 1920px;
+    background-size: cover;
 }
 
-main
-{
-    border: 5px solid darkblue;
-    width: 500px;
-}
-
-#titleDesing
-{
-    text-align: center;
+#titleDesing {
     text-align: center;
 
-    border: 2px solid seagreen;
+    margin-left: 0;
+
+    font-size: 100px;
 }
+
+#heroImg {
+    width: 900px;
+    height: 1026px;
+    /* margin-left: 400px; */
+
+    display: inline;
+
+    background: #ffffff50;
+
+    position: relative;
+    z-index: 2;
+}
+
+#divForThreeCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+    width: 180px;
+    height: 212px;
+
+    border-radius: 15px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.imgForCard {
+    margin-top: 30px;
+
+    width: 44px;
+    height: 44px;
+
+    display: inline;
+}
+
+.hrForCard {
+    width: 100px;
+}
+
+.miniH4ForCard {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#boddomHeroImh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 100px;
+
+    padding: 0 150px;
+
+    text-align: center;
+}
+
+
+/* ----------------} Настройка карточек в первой секции {-------------------- */
+#firstSec {
+    display: flex;
+}
+
+#threeCards {}
+
+.cardsInFirstSec {
+    border: 2px solid black;
+    width: 481px;
+    height: 953px;
+
+    margin-right: 15px;
+    border-radius: 20px;
+
+}
+
+.photoForSecondCardSection1 {
+    width: 481px;
+    height: 720px;
+}
+
+.h1InCardFirstSec {}
+
+.pInCardFirstSec {}
+
+.divForPhotoCard {}
