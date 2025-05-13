@@ -23,8 +23,7 @@
     flex-direction: column;
     /* margin-left: 100px; */
     /* width: 100%; */
-    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
-    background-repeat: no-repeat;
+   
     /*  */
     width: 1920px;
     background-size: cover;
@@ -46,9 +45,13 @@
     display: inline;
 
     background: #ffffff50;
+    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
+    background-repeat: no-repeat;
 
     position: relative;
     /* z-index: 2; */
+
+    margin-bottom: 100px;
 }
 
 #divForThreeCards {
@@ -105,36 +108,114 @@
 /* ----------------} Настройка карточек в первой секции {-------------------- */
 #firstSec {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #threeCards {}
 
 .photoForCardInSection {
-
     width: 481px;
     height: 720px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.cardsInFirstSec {
-    border: 2px solid black;
-    border-radius: 20px;
 
+.cardsInFirstSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+
+    /* border: 2px solid black; */
+    border-radius: 20px;
     width: 481px;
     height: 953px;
-
-    /* z-index: ; */
-
     margin-right: 15px;
     background: #ffffff;
 }
 
-.h1InCardFirstSec {
-}
 
-.pInCardFirstSec {}
+
+.h1InCardFirstSec {}
+
+.pInCardFirstSec {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .divForPhotoCard {
     /* z-index: 0; */
+}
+
+#firstSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#downFirstSec,
+#cardInThirdSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* добавим отступ сверху */
+    width: 1483px;
+    height: 289px;
+    background: #ffffff;
+
+    border-radius: 15px;
+    /* border: 1px solid black; */
+}
+
+#thirdSec
+{
+    display: inline;
+    width: 1480px;
+}
+
+#a,
+#imgInCardThirdSec {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 2400px;
+    height: 289px;
+
+    /* border: 5px solid saddlebrown; */
+}
+
+#imgInCardThirdSec
+{
+    width: 5400px;
+    height: 585px;
+}
+
+#rightDivInFouesCard,
+#divInCardThirdSec {
+    display: inline;
+    margin-left: 20px;
+}
+
+#h1InCardThirdSec
+{
+    width: 300px;}
+
+#h1InFoursCard,
+#h1InCardThirdSec {
+    margin-bottom: -20px;
+}
+
+.cardInThirdSec
+{
+    background: #ffffff;
+    /* width: 595px; */
+    /* border: 5px solid saddlebrown; */
+    border-radius: 15px;
+
+    margin-bottom: 100px;
 }
