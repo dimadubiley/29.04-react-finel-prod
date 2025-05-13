@@ -23,7 +23,7 @@
     flex-direction: column;
     /* margin-left: 100px; */
     /* width: 100%; */
-   
+
     /*  */
     width: 1920px;
     background-size: cover;
@@ -45,12 +45,21 @@
     display: inline;
 
     background: #ffffff50;
-    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
-    background-repeat: no-repeat;
 
     position: relative;
     /* z-index: 2; */
 
+    
+}
+
+#divForBgImg
+{
+    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
+    background-repeat: no-repeat;
+    /* margin-left: -400px; */
+    width: 1900px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 100px;
 }
 
@@ -173,8 +182,7 @@
     /* border: 1px solid black; */
 }
 
-#thirdSec
-{
+#thirdSec {
     display: inline;
     width: 1480px;
 }
@@ -189,8 +197,7 @@
     /* border: 5px solid saddlebrown; */
 }
 
-#imgInCardThirdSec
-{
+#imgInCardThirdSec {
     width: 5400px;
     height: 585px;
 }
@@ -201,17 +208,16 @@
     margin-left: 20px;
 }
 
-#h1InCardThirdSec
-{
-    width: 300px;}
+#h1InCardThirdSec {
+    width: 300px;
+}
 
 #h1InFoursCard,
 #h1InCardThirdSec {
     margin-bottom: -20px;
 }
 
-.cardInThirdSec
-{
+.cardInThirdSec {
     background: #ffffff;
     /* width: 595px; */
     /* border: 5px solid saddlebrown; */
