@@ -1,21 +1,5 @@
 @media(min-width: 1366px) {
-    #wrappDesing {
-        /* border: 2px solid black; */
-    }
-}
-
-@media(min-width: 933px) and (max-width: 1366px) {
-    #wrappDesing {
-        border: 2px solid red;
-    }
-}
-
-@media(max-width: 932px) {
-    #wrappDesing {
-        border: 2px solid green;
-    }
-}
-
+    
 #wrappDesing {
     display: flex;
     justify-content: center;
@@ -23,8 +7,6 @@
     flex-direction: column;
     /* margin-left: 100px; */
     /* width: 100%; */
-
-    /*  */
     width: 1920px;
     background-size: cover;
 }
@@ -57,7 +39,7 @@
     background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
     background-repeat: no-repeat;
     /* margin-left: -400px; */
-    width: 1860px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
@@ -180,6 +162,18 @@
 
     border-radius: 15px;
     /* border: 1px solid black; */
+
+
+}
+
+#downFirstSec
+{
+    margin-left: -200px;
+}
+
+#pInFoursCard
+{
+    width: 500px;
 }
 
 #thirdSec {
@@ -224,4 +218,224 @@
     border-radius: 15px;
 
     margin-bottom: 100px;
+}
+}
+
+@media(min-width: 933px) and (max-width: 1500px) {
+    
+#wrappDesing {
+    /* border: 2px solid red; */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 100px; */
+    /* width: 100%; */
+    width: 1300px;
+    background-size: cover;
+}
+
+#titleDesing {
+    text-align: center;
+
+    margin-left: 0;
+
+    font-size: 100px;
+}
+
+#heroImg {
+    width: 900px;
+    height: 1026px;
+    /* margin-left: 400px; */
+
+    display: inline;
+
+    background: #ffffff50;
+
+    position: relative;
+    /* z-index: 2; */
+
+    
+}
+
+#divForBgImg
+{
+    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
+    background-repeat: no-repeat;
+    /* margin-left: -400px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#divForThreeCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+    width: 180px;
+    height: 212px;
+
+    border-radius: 15px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.imgForCard {
+    margin-top: 30px;
+
+    width: 44px;
+    height: 44px;
+
+    display: inline;
+}
+
+.hrForCard {
+    width: 100px;
+}
+
+.miniH4ForCard {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#boddomHeroImh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 100px;
+
+    padding: 0 150px;
+
+    text-align: center;
+}
+
+
+/* ----------------} Настройка карточек в первой секции {-------------------- */
+#firstSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#threeCards {}
+
+.photoForCardInSection {
+    width: 481px;
+    height: 720px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.cardsInFirstSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    width: 400px;
+    height: 880px;
+    margin-right: 15px;
+    background: #ffffff;
+}
+
+.pInCardFirstSec {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.divForPhotoCard {
+    /* z-index: 0; */
+}
+
+#firstSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#downFirstSec,
+#cardInThirdSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* добавим отступ сверху */
+    width: 183px;
+    height: 289px;
+    background: #ffffff;
+
+    border-radius: 15px;
+    /* border: 1px solid black; */
+}
+
+#thirdSec {
+    margin-left: 200px;
+    display: inline;
+    width: 1480px;
+}
+
+#a,
+#imgInCardThirdSec {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 2400px;
+    height: 289px;
+
+    /* border: 5px solid saddlebrown; */
+}
+
+#imgInCardThirdSec {
+    width: 5400px;
+    height: 585px;
+}
+
+#rightDivInFouesCard,
+#divInCardThirdSec {
+    display: inline;
+    margin-left: 20px;
+}
+
+#h1InCardThirdSec {
+    width: 300px;
+}
+
+#h1InFoursCard,
+#h1InCardThirdSec {
+    margin-bottom: -20px;
+}
+
+.cardInThirdSec {
+    background: #ffffff;
+    width: 895px;
+    /* border: 5px solid saddlebrown; */
+    border-radius: 15px;
+
+    margin-bottom: 100px;
+
+
+}
+}
+
+@media(max-width: 932px) {
+    #wrappDesing {
+        border: 2px solid green;
+    }
 }
