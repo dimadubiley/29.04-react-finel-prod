@@ -1,441 +1,429 @@
 @media(min-width: 1366px) {
-    
-#wrappDesing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* margin-left: 100px; */
-    /* width: 100%; */
-    width: 1920px;
-    background-size: cover;
-}
 
-#titleDesing {
-    text-align: center;
+    #wrappDesing-DD {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* margin-left: 100px; */
+        /* width: 100%; */
+        width: 1920px;
+        background-size: cover;
+    }
 
-    margin-left: 0;
+    #titleDesing-DD {
+        text-align: center;
 
-    font-size: 100px;
-}
+        margin-left: 0;
 
-#heroImg {
-    width: 900px;
-    height: 1026px;
-    /* margin-left: 400px; */
+        font-size: 100px;
+    }
 
-    display: inline;
+    #heroImg-DD {
+        width: 900px;
+        height: 1026px;
+        /* margin-left: 400px; */
 
-    background: #ffffff50;
+        display: inline;
 
-    position: relative;
-    /* z-index: 2; */
+        background: #ffffff50;
 
-    
-}
-
-#divForBgImg
-{
-    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
-    background-repeat: no-repeat;
-    /* margin-left: -400px; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-#divForThreeCards {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-
-    width: 180px;
-    height: 212px;
-
-    border-radius: 15px;
-    background: #ffffff;
-    text-align: center;
-}
-
-.imgForCard {
-    margin-top: 30px;
-
-    width: 44px;
-    height: 44px;
-
-    display: inline;
-}
-
-.hrForCard {
-    width: 100px;
-}
-
-.miniH4ForCard {
-    margin-top: -5px;
-    margin-bottom: -5px;
-}
-
-#boddomHeroImh {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    margin-top: 100px;
-
-    padding: 0 150px;
-
-    text-align: center;
-}
+        position: relative;
+        /* z-index: 2; */
 
 
-/* ----------------} Настройка карточек в первой секции {-------------------- */
-#firstSec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    }
 
-#threeCards {}
+    #divForBgImg-DD {
+        background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
+        background-repeat: no-repeat;
+        /* margin-left: -400px; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
 
-.photoForCardInSection {
-    width: 481px;
-    height: 720px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
+    #divForThreeCards-DD {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .card-DD {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
 
-.cardsInFirstSec {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    overflow: hidden;
+        width: 180px;
+        height: 212px;
 
-    /* border: 2px solid black; */
-    border-radius: 20px;
-    width: 481px;
-    height: 953px;
-    margin-right: 15px;
-    background: #ffffff;
-}
+        border-radius: 15px;
+        background: #ffffff;
+        text-align: center;
+    }
 
+    .imgForCard-DD {
+        margin-top: 30px;
 
+        width: 44px;
+        height: 44px;
 
-.h1InCardFirstSec {}
+        display: inline;
+    }
 
-.pInCardFirstSec {
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .hrForCard-DD {
+        width: 100px;
+    }
 
-.divForPhotoCard {
-    /* z-index: 0; */
-}
+    .miniH4ForCard-DD {
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
 
-#firstSec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    #boddomHeroImh-DD {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
+        margin-top: 100px;
 
-#downFirstSec,
-#cardInThirdSec {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    /* добавим отступ сверху */
-    width: 1483px;
-    height: 289px;
-    background: #ffffff;
+        padding: 0 150px;
 
-    border-radius: 15px;
-    /* border: 1px solid black; */
+        text-align: center;
+    }
 
 
-}
+    /* ----------------} Настройка карточек в первой секции {-------------------- */
+    #firstSec-DD {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-#downFirstSec
-{
-    margin-left: -200px;
-}
+    .photoForCardInSection-DD {
+        width: 481px;
+        height: 720px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
 
-#pInFoursCard
-{
-    width: 500px;
-}
 
-#thirdSec {
-    display: inline;
-    width: 1480px;
-}
+    .cardsInFirstSec-DD {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
 
-#a,
-#imgInCardThirdSec {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 2400px;
-    height: 289px;
+        /* border: 2px solid black; */
+        border-radius: 20px;
+        width: 481px;
+        height: 953px;
+        margin-right: 15px;
+        background: #ffffff;
+    }
 
-    /* border: 5px solid saddlebrown; */
-}
+    .pInCardFirstSec-DD {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-#imgInCardThirdSec {
-    width: 5400px;
-    height: 585px;
-}
+    .divForPhotoCard-DD {
+        /* z-index: 0; */
+    }
 
-#rightDivInFouesCard,
-#divInCardThirdSec {
-    display: inline;
-    margin-left: 20px;
-}
+    #firstSec-DD {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-#h1InCardThirdSec {
-    width: 300px;
-}
 
-#h1InFoursCard,
-#h1InCardThirdSec {
-    margin-bottom: -20px;
-}
+    #downFirstSec-DD,
+    #cardInThirdSec-DD {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        /* добавим отступ сверху */
+        width: 1483px;
+        height: 289px;
+        background: #ffffff;
 
-.cardInThirdSec {
-    background: #ffffff;
-    /* width: 595px; */
-    /* border: 5px solid saddlebrown; */
-    border-radius: 15px;
+        border-radius: 15px;
+        /* border: 1px solid black; */
 
-    margin-bottom: 100px;
-}
+
+    }
+
+    #downFirstSec-DD {
+        margin-left: -200px;
+    }
+
+    #pInFoursCard-DD {
+        width: 500px;
+    }
+
+    #thirdSec-DD {
+        display: inline;
+        width: 1480px;
+    }
+
+    #a-DD,
+    #imgInCardThirdSec-DD {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 2400px;
+        height: 289px;
+
+        /* border: 5px solid saddlebrown; */
+    }
+
+    #imgInCardThirdSec-DD {
+        width: 5400px;
+        height: 585px;
+    }
+
+    #rightDivInFouesCard-DD,
+    #divInCardThirdSec-DD {
+        display: inline;
+        margin-left: 20px;
+    }
+
+    #h1InCardThirdSec-DD {
+        width: 300px;
+    }
+
+    #h1InFoursCard-DD,
+    #h1InCardThirdSec-DD {
+        margin-bottom: -20px;
+    }
+
+    .cardInThirdSec-DD {
+        background: #ffffff;
+        /* width: 595px; */
+        /* border: 5px solid saddlebrown; */
+        border-radius: 15px;
+
+        margin-bottom: 100px;
+    }
 }
 
 @media(min-width: 933px) and (max-width: 1500px) {
-    
-#wrappDesing {
-    /* border: 2px solid red; */
+
+    #wrappDesing-DD {
+        /* border: 2px solid red; */
 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* margin-left: 100px; */
-    /* width: 100%; */
-    width: 1300px;
-    background-size: cover;
-}
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* margin-left: 100px; */
+        /* width: 100%; */
+        width: 1300px;
+        background-size: cover;
+    }
 
-#titleDesing {
-    text-align: center;
+    #titleDesing-DD {
+        text-align: center;
 
-    margin-left: 0;
+        margin-left: 0;
 
-    font-size: 100px;
-}
+        font-size: 100px;
+    }
 
-#heroImg {
-    width: 900px;
-    height: 1026px;
-    /* margin-left: 400px; */
+    #heroImg-DD {
+        width: 900px;
+        height: 1026px;
+        /* margin-left: 400px; */
 
-    display: inline;
+        display: inline;
 
-    background: #ffffff50;
+        background: #ffffff50;
 
-    position: relative;
-    /* z-index: 2; */
-
-    
-}
-
-#divForBgImg
-{
-    background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
-    background-repeat: no-repeat;
-    /* margin-left: -400px; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-#divForThreeCards {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-
-    width: 180px;
-    height: 212px;
-
-    border-radius: 15px;
-    background: #ffffff;
-    text-align: center;
-}
-
-.imgForCard {
-    margin-top: 30px;
-
-    width: 44px;
-    height: 44px;
-
-    display: inline;
-}
-
-.hrForCard {
-    width: 100px;
-}
-
-.miniH4ForCard {
-    margin-top: -5px;
-    margin-bottom: -5px;
-}
-
-#boddomHeroImh {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    margin-top: 100px;
-
-    padding: 0 150px;
-
-    text-align: center;
-}
+        position: relative;
+        /* z-index: 2; */
 
 
-/* ----------------} Настройка карточек в первой секции {-------------------- */
-#firstSec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    }
 
-#threeCards {}
+    #divForBgImg-DD {
+        background-image: url('/public/bg\ hero\ image\ dising\ 1.jpg');
+        background-repeat: no-repeat;
+        /* margin-left: -400px; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
 
-.photoForCardInSection {
-    width: 481px;
-    height: 720px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
+    #divForThreeCards-DD {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .card-DD {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
 
-.cardsInFirstSec {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    overflow: hidden;
+        width: 180px;
+        height: 212px;
 
-    /* border: 2px solid black; */
-    border-radius: 20px;
-    width: 400px;
-    height: 880px;
-    margin-right: 15px;
-    background: #ffffff;
-}
+        border-radius: 15px;
+        background: #ffffff;
+        text-align: center;
+    }
 
-.pInCardFirstSec {
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    .imgForCard-DD {
+        margin-top: 30px;
 
-.divForPhotoCard {
-    /* z-index: 0; */
-}
+        width: 44px;
+        height: 44px;
 
-#firstSec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        display: inline;
+    }
 
+    .hrForCard-DD {
+        width: 100px;
+    }
 
-#downFirstSec,
-#cardInThirdSec {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    /* добавим отступ сверху */
-    width: 183px;
-    height: 289px;
-    background: #ffffff;
+    .miniH4ForCard-DD {
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
 
-    border-radius: 15px;
-    /* border: 1px solid black; */
-}
+    #boddomHeroImh-DD {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-#thirdSec {
-    margin-left: 200px;
-    display: inline;
-    width: 1480px;
-}
+        margin-top: 100px;
 
-#a,
-#imgInCardThirdSec {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 2400px;
-    height: 289px;
+        padding: 0 150px;
 
-    /* border: 5px solid saddlebrown; */
-}
-
-#imgInCardThirdSec {
-    width: 5400px;
-    height: 585px;
-}
-
-#rightDivInFouesCard,
-#divInCardThirdSec {
-    display: inline;
-    margin-left: 20px;
-}
-
-#h1InCardThirdSec {
-    width: 300px;
-}
-
-#h1InFoursCard,
-#h1InCardThirdSec {
-    margin-bottom: -20px;
-}
-
-.cardInThirdSec {
-    background: #ffffff;
-    width: 895px;
-    /* border: 5px solid saddlebrown; */
-    border-radius: 15px;
-
-    margin-bottom: 100px;
+        text-align: center;
+    }
 
 
-}
+    /* ----------------} Настройка карточек в первой секции {-------------------- */
+    #firstSec-DD {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photoForCardInSection-DD {
+        width: 481px;
+        height: 720px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+
+    .cardsInFirstSec-DD {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+
+        /* border: 2px solid black; */
+        border-radius: 20px;
+        width: 400px;
+        height: 880px;
+        margin-right: 15px;
+        background: #ffffff;
+    }
+
+    .pInCardFirstSec-DD {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .divForPhotoCard-DD {
+        /* z-index: 0; */
+    }
+
+    #firstSec-DD {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #downFirstSec-DD,
+    #cardInThirdSec-DD {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        /* добавим отступ сверху */
+        width: 183px;
+        height: 289px;
+        background: #ffffff;
+
+        border-radius: 15px;
+        /* border: 1px solid black; */
+    }
+
+    #thirdSec-DD {
+        margin-left: 200px;
+        display: inline;
+        width: 1480px;
+    }
+
+    #a-DD,
+    #imgInCardThirdSec-DD {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 2400px;
+        height: 289px;
+
+        /* border: 5px solid saddlebrown; */
+    }
+
+    #imgInCardThirdSec-DD {
+        width: 5400px;
+        height: 585px;
+    }
+
+    #rightDivInFouesCard-DD,
+    #divInCardThirdSec-DD {
+        display: inline;
+        margin-left: 20px;
+    }
+
+    #h1InCardThirdSec-DD {
+        width: 300px;
+    }
+
+    #h1InFoursCard-DD,
+    #h1InCardThirdSec-DD {
+        margin-bottom: -20px;
+    }
+
+    .cardInThirdSec-DD {
+        background: #ffffff;
+        width: 895px;
+        /* border: 5px solid saddlebrown; */
+        border-radius: 15px;
+
+        margin-bottom: 100px;
+
+
+    }
 }
 
 @media(max-width: 932px) {
-    #wrappDesing {
+    #wrappDesing-DD {
         border: 2px solid green;
     }
 }

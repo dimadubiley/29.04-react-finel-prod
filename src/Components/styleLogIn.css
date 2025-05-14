@@ -1,11 +1,11 @@
 @media(min-width: 1366px) {
-    #wrappLogIn {
+    #wrappLogIn-DD {
         display: flex;
         justify-content: space-around;
     }
 
     /* LEFT */
-    #leftL {
+    #leftL-DD {
         background-image: url(/public/2.jpeg);
         background-size: cover;
         background-position: center;
@@ -15,7 +15,7 @@
         width: 700px;
     }
 
-    #backBnt {
+    #backBnt-DD {
         background: none;
         border: none;
 
@@ -24,12 +24,12 @@
         /* background: #bb5252; */
     }
 
-    #divForH1 {
+    #divForH1-DD {
         margin-top: 250px;
         margin-left: 150px;
     }
 
-    #titleLogIn {
+    #titleLogIn-DD {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
 
@@ -38,7 +38,7 @@
     }
 
     /* RIGHT */
-    #right {
+    #right-DD {
         display: flex;
         align-items: center;
 
@@ -46,7 +46,7 @@
     }
 
     /*-----------------*/
-    .text {
+    .text-DD {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 12px;
@@ -58,7 +58,7 @@
 
     }
 
-    .text2 {
+    .text2-DD {
         /* font-family: Montserrat; */
         font-weight: 400;
         font-size: 12px;
@@ -78,7 +78,7 @@
 
     /*-----------------*/
 
-    .inp {
+    .inp-DD {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         /* font-weight: <weight>; */
@@ -93,7 +93,7 @@
 
     }
 
-    .first {
+    .first-DD {
         width: 428px;
         height: 50px;
 
@@ -108,12 +108,12 @@
         margin-bottom: 50px;
     }
 
-    .first:focus {
+    .first-DD:focus {
         /* border: none; */
         outline: none;
     }
 
-    #ies {
+    #ies-DD {
         margin-top: 5px;
 
         width: 35px;
@@ -121,7 +121,7 @@
     }
 
 
-    #pass {
+    #pass-DD {
         margin-top: 10px;
         margin-bottom: 10px;
 
@@ -135,16 +135,16 @@
         border: 1px solid #646464;
     }
 
-    #butforgotPass {
+    #butforgotPass-DD {
         text-decoration: underline;
         color: #646464;
     }
 
-    #divForBtnForgotPass {
+    #divForBtnForgotPass-DD {
         margin-bottom: 20px;
     }
 
-    #saveInfo {
+    #saveInfo-DD {
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 20px;
@@ -155,7 +155,7 @@
         border: none;
     }
 
-    #inputPass {
+    #inputPass-DD {
         margin-top: 4px;
 
         font-size: 20px;
@@ -165,21 +165,21 @@
         height: 40px;
     }
 
-    #divForInfo {
+    #divForInfo-DD {
         margin-left: 200px;
     }
 
-    #inputPass:focus {
+    #inputPass-DD:focus {
         border: none;
         outline: none;
     }
 
-    #divForSaveInfo {
+    #divForSaveInfo-DD {
         display: flex;
         align-items: center;
     }
 
-    .Akk {
+    .Akk-DD {
         width: 428px;
         height: 50px;
 
@@ -208,7 +208,7 @@
         margin-bottom: 50px;
     }
 
-    .pMa {
+    .pMa-DD {
         font-family: Montserrat;
         font-weight: 600px;
         font-size: 14px;
@@ -231,13 +231,13 @@
 }
 
 @media(min-width: 933px) and (max-width: 1366px) {
-    #wrappLogIn {
+    #wrappLogIn-DD {
         display: flex;
         justify-content: space-around;
     }
 
     /* LEFT */
-    #leftL {
+    #leftL-DD {
         background-image: url(/public/2.jpeg);
         background-size: cover;
         background-position: center;
@@ -247,7 +247,7 @@
         width: 400px;
     }
 
-    #backBnt {
+    #backBnt-DD {
         background: none;
         border: none;
 
@@ -256,7 +256,7 @@
         /* background: #bb5252; */
     }
 
-    #divForH1 {
+    #divForH1-DD {
         margin-top: 250px;
         /* margin-left: 20px; */
     }
@@ -268,7 +268,7 @@
     }
 
     /* RIGHT */
-    #right {
+    #right-DD {
         display: flex;
         align-items: center;
 
@@ -276,7 +276,7 @@
     }
 
     /*-----------------*/
-    .text {
+    .text-DD {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 12px;
@@ -289,7 +289,7 @@
         color: #646464;
     }
 
-    .text2 {
+    .text2-DD {
         /* font-family: Montserrat; */
         font-weight: 400;
         font-size: 12px;
@@ -309,7 +309,7 @@
 
     /*-----------------*/
 
-    .inp {
+    .inp-DD {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         /* font-weight: <weight>; */
@@ -325,7 +325,7 @@
     }
 
 
-    .first {
+    .first-DD {
         width: 428px;
         height: 50px;
 
@@ -340,23 +340,23 @@
         margin-bottom: 50px;
     }
 
-    .first:focus {
+    .first-DD:focus {
         /* border: none; */
         outline: none;
     }
 
-    #ies {
+    #ies-DD {
         margin-top: 5px;
 
         width: 35px;
         height: 23px;
     }
 
-    #buttonPass {
+    #buttonPass-DD {
         border: none;
     }
 
-    #pass {
+    #pass-DD {
         margin-top: 10px;
         margin-bottom: 10px;
 
@@ -370,16 +370,16 @@
         border: 1px solid #646464;
     }
 
-    #butforgotPass {
+    #butforgotPass-DD {
         text-decoration: underline;
         color: #646464;
     }
 
-    #divForBtnForgotPass {
+    #divForBtnForgotPass-DD {
         margin-bottom: 20px;
     }
 
-    #saveInfo {
+    #saveInfo-DD {
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 20px;
@@ -390,7 +390,7 @@
         border: none;
     }
 
-    #inputPass {
+    #inputPass-DD {
         margin-top: 4px;
 
         font-size: 20px;
@@ -400,21 +400,21 @@
         height: 40px;
     }
 
-    #divForInfo {
+    #divForInfo-DD {
         margin-left: 200px;
     }
 
-    #inputPass:focus {
+    #inputPass-DD:focus {
         border: none;
         outline: none;
     }
 
-    #divForSaveInfo {
+    #divForSaveInfo-DD {
         display: flex;
         align-items: center;
     }
 
-    .Akk {
+    .Akk-DD {
         width: 428px;
         height: 50px;
 
@@ -443,7 +443,7 @@
         margin-bottom: 50px;
     }
 
-    .Ma {
+    .Ma-DD {
         background: white;
 
         width: 428px;
@@ -470,7 +470,7 @@
         text-transform: uppercase;
     }
 
-    .pMa {
+    .pMa-DD {
         font-family: Montserrat;
         font-weight: 600px;
         font-size: 14px;
@@ -493,7 +493,7 @@
 }
 
 @media(max-width: 932px) {
-    #wrappLogIn {
+    #wrappLogIn-DD {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -504,14 +504,14 @@
 
 
     /* LEFT */
-    #leftL {
+    #leftL-DD {
         background-image: url(/public/2.jpeg);
         background-size: cover;
         background-position: center;
         height: 400px;
     }
 
-    #backBnt {
+    #backBnt-DD {
         background: none;
         border: none;
 
@@ -520,7 +520,7 @@
         /* background: #bb5252; */
     }
 
-    #divForH1 {
+    #divForH1-DD {
         display: flex;
         justify-content: center;
 
@@ -531,7 +531,7 @@
 
     }
 
-    #titleLogIn {
+    #titleLogIn-DD {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         width: 400px;
@@ -539,7 +539,7 @@
     }
 
     /* RIGHT */
-    #right {
+    #right-DD {
         display: flex;
         align-items: center;
 
@@ -549,11 +549,11 @@
 
     /*-----------------*/
 
-    #divForText1 {
+    #divForText1-DD {
         width: 350px;
     }
 
-    .text {
+    .text-DD {
         font-family: Montserrat;
         font-weight: 100px;
 
@@ -564,7 +564,7 @@
         color: #646464;
     }
 
-    .text2 {
+    .text2-DD {
         /* font-family: Montserrat; */
         font-weight: 400;
         font-size: 12px;
@@ -584,7 +584,7 @@
 
     /*-----------------*/
 
-    .inp {
+    .inp-DD {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         /* font-weight: <weight>; */
@@ -601,7 +601,7 @@
 
 
 
-    .first {
+    .first-DD {
         width: 428px;
         height: 50px;
 
@@ -615,13 +615,13 @@
         margin-bottom: 10px;
     }
 
-    .first:focus {
+    .first-DD:focus {
         /* border: none; */
         outline: none;
     }
 
     /* --------------------------------- */
-    #pass {
+    #pass-DD {
         margin-top: 10px;
         margin-bottom: 10px;
 
@@ -635,7 +635,7 @@
         border: 1px solid #646464;
     }
 
-    #inputPass {
+    #inputPass-DD {
         margin-top: -1px;
         margin-left: -5px;
 
@@ -647,18 +647,18 @@
         height: 40px;
     }
 
-    #inputPass:focus {
+    #inputPass-DD:focus {
         outline: none !important;
         border: none !important;
     }
 
-    #buttonPass {
+    #buttonPass-DD {
         border: none;
         margin-top: -48px;
         margin-left: 250px;
     }
 
-    #ies {
+    #ies-DD {
 
         width: 35px;
         height: 23px;
@@ -666,16 +666,16 @@
 
     /* --------------------------------- */
 
-    #butforgotPass {
+    #butforgotPass-DD {
         text-decoration: underline;
         color: #646464;
     }
 
-    #divForBtnForgotPass {
+    #divForBtnForgotPass-DD {
         margin-bottom: 20px;
     }
 
-    #saveInfo {
+    #saveInfo-DD {
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 20px;
@@ -688,7 +688,7 @@
 
 
     /* ------------------------------------- */
-    #divForSaveInfo {
+    #divForSaveInfo-DD {
         /* border: 1px solid black; */
         flex-direction: row;
         align-items: center;
@@ -697,7 +697,7 @@
         margin-bottom: -40px;
     }
 
-    #divForCheckbox {
+    #divForCheckbox-DD {
         /* border: 1px solid blue; */
 
 
@@ -705,12 +705,12 @@
 
     }
 
-    #divForTextSaveInfo {
+    #divForTextSaveInfo-DD {
         /* border: 1px solid green; */
         width: 160px;
     }
 
-    #divForInfo {
+    #divForInfo-DD {
         /* border: 1px solid red; */
 
         margin-left: 70px;
@@ -720,7 +720,7 @@
 
     /* ------------------------------------- */
 
-    .Akk {
+    .Akk-DD {
         width: 428px;
         height: 50px;
 
@@ -749,7 +749,7 @@
         margin-bottom: 50px;
     }
 
-    .pMa {
+    .pMa-DD {
         font-family: Montserrat;
         font-weight: 600px;
         font-size: 14px;
@@ -771,12 +771,12 @@
     }
 }
 
-#buttonPass {
+#buttonPass-DD {
     border: none;
     background: none;
 }
 
-#LinkStyle {
+#LinkStyle-DD {
     background: white;
 
     width: 428px;
@@ -812,7 +812,7 @@
     color: #000000;
 }
 
-#titleLogIn {
+#titleLogIn-DD {
     text-align: center;
     text-align: center;
 }

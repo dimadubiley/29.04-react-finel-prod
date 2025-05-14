@@ -5,35 +5,35 @@ export function Register() {
     return (
         <div id="wrappRegister-DD">
             <div id="left-DD">
-                <button id="backBnt"> <img src="backBtn.png" alt=""></img></button>
+                <button id="backBnt-DD"> <img src="backBtn.png" alt=""></img></button>
             </div>
 
             <div id="right-DD">
                 <form class="main-DD">
 
                     <div className="divForInfoRegister-DD" id="divName-DD">
-                        <label class="inp">Ім'я</label> <br />
+                        <label class="inp-DD">Ім'я</label> <br />
                         <input type="text" class="inputInfo-DD" /><br />
                     </div>
 
                     <div className="divForInfoRegister-DD">
-                        <label class="inp">Фамілія</label> <br />
+                        <label class="inp-DD">Фамілія</label> <br />
                         <input type="text" class="inputInfo-DD" /><br />
                     </div>
                     <div className="divForInfoRegister-DD">
-                        <label class="inp">Дата народження</label> <br />
+                        <label class="inp-DD">Дата народження</label> <br />
                         <input type="date" class="inputInfo-DD" /><br />
                     </div>
                     <div className="divForInfoRegister-DD">
-                        <label class="inp">Країна</label> <br />
+                        <label class="inp-DD">Країна</label> <br />
                         <input type="text" class="inputInfo-DD" /><br />
                     </div>
                     <div className="divForInfoRegister-DD">
-                        <label class="inp">Адреса</label> <br />
+                        <label class="inp-DD">Адреса</label> <br />
                         <input type="text" class="inputInfo-DD" /><br />
                     </div>
                     <div className="divForInfoRegister-DD">
-                        <label class="inp">мобільний номер</label> <br />
+                        <label class="inp-DD">мобільний номер</label> <br />
                         <input type="text" class="inputInfo-DD" /><br />
                     </div>
                     <br />
