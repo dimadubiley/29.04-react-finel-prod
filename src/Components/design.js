@@ -81,7 +81,7 @@ export function Desing() {
                     <img src='imgForFirstCardInThirdSec.jpg' alt='' id='imgInCardThirdSec-DD' />
                     <div id='divInCardThirdSec-DD'>
                         <h1 id='h1InCardThirdSec-DD'>інформація</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et.
+                        <p id='pInCardTrirdSec-DD'>Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et.
 
                             Оrnare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.</p>
                     </div>
@@ -90,7 +90,7 @@ export function Desing() {
                     <img src='imgForSecondCardInThirdSec.jpg' alt='' id='imgInCardThirdSec-DD' />
                     <div id='divInCardThirdSec-DD'>
                         <h1 id='h1InCardThirdSec-DD'>інформація</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et.
+                        <p id='pInCardTrirdSec-DD'>Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et.
 
                             Оrnare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.</p>
                     </div>
