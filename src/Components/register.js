@@ -5,7 +5,7 @@ export function Register() {
     return (
         <div id="wrappRegister-DD">
             <div id="left-DD">
-                <button id="backBnt-DD"> <img src="backBtn.png" alt=""></img></button>
+                <button id="backBnt-DD"> <img src="backBtn-DD.png" alt=""/></button>
             </div>
 
             <div id="right-DD">
